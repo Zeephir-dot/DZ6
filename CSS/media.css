@@ -1,0 +1,240 @@
+/* ===================
+   Adaptive styles
+   =================== */
+
+/* планшеты (<=992px) */
+@media (max-width: 992px) {
+    header {
+        padding: 20px 40px;
+    }
+    header nav ul li a {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+    .what-container {
+        flex-direction: column;
+    }
+    .what-box {
+        width: 100%;
+        height: auto;
+    }
+    .what-box__img {
+        width: 100%;
+    }
+    .what-box-text button{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .what-box-text h4{
+        text-align: center;
+    }
+    .use-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .use-left {
+        position: static;
+        padding: 20px;
+        text-align: center;
+    }
+    .use-left button{
+        margin: auto;
+        margin-top: 40px;
+    }
+    .use-right img {
+        max-width: 100%;
+    }
+    .clients-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .studio-text__h1 {
+        font-size: 40px;
+    }
+    .studio-text__p {
+        max-width: 90%;
+    }
+}
+
+/* смартфоны (<=768px) */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header nav ul li a {
+        margin: 10px 0;
+    }
+    header nav ul button {
+        margin-top: 15px;
+    }
+    .studio {
+        padding: 60px 0;
+    }
+    .studio-container__img{
+        position: absolute;
+        right: 235px;
+    }
+    .studio-text__h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .studio-text__p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .what__h1 {
+        font-size: 28px;
+    }
+    .what__p {
+        font-size: 18px;
+    }
+    .what-box-text p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .sunset {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .monstera {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .clients {
+        padding-top: 60px;
+    }
+    .clients h1 {
+        font-size: 28px;
+    }
+    .clients p {
+        font-size: 18px;
+    }
+    .star {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+    }
+    .help {
+        padding-top: 60px;
+    }
+    .help h1 {
+        font-size: 28px;
+    }
+    .help p {
+        font-size: 18px;
+    }
+}
+
+/* очень маленькие экраны (<=480px) */
+@media (max-width: 480px) {
+    .studio-text__h1 {
+        font-size: 24px;
+    }
+    .what__h1 {
+        font-size: 22px;
+    }
+    .clients h1 {
+        font-size: 22px;
+    }
+    .help h1 {
+        font-size: 22px;
+    }
+}
+/* адаптив для footer */
+
+@media (max-width: 992px) {
+  footer {
+    padding-left: 40px;
+    padding-top: 60px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-right {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .border-top,
+  .border-bottom,
+  .footer-container-2,
+  .footer-container-3 {
+    width: 95%;
+  }
+  .footer-container-2 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .footer-container-2 button {
+    width: 200px;
+    justify-content: center;
+  }
+  .footer-container-3 {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .footer-container-3-icons {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    gap: 20px;
+    text-align: center;
+  }
+  .footer-container-2 button {
+    font-size: 14px;
+    height: 44px;
+  }
+  .footer-right-1 h4{
+    margin-bottom: 30px;
+  }
+  .footer-right2 p,.footer-right-1 p{
+    margin-bottom: 20px;
+  }
+  .footer-container-3-icons i {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+  .footer-left p,
+  .footer-container-2 p,
+  .footer-container-3-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .footer-container-2 button {
+    height: 40px;
+    font-size: 12px;
+  }
+  .footer-right {
+    gap: 15px;
+  }
+  .footer-container-3-text p {
+    text-align: center;
+  }
+}
